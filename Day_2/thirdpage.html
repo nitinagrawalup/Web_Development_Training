@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>NPTEL Registration</h1>
+    <form action="https://www.google.com" method="GET">
+        <label for="Username">Username</label>
+        <input type="text" placeholder="Username" id="Username" name="username">
+        <br/>
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Password" id="Password" name="password">
+        <br/> 
+        <button>Login</button>
+        <button>Sign up now</button>
+    </form>
+    <hr/>
+    <form>
+        <label for="Username">Username</label>
+        <br/>
+        <input type="text" placeholder="Username" name="username" id="Username">
+        <br/>
+        <label for="Password">New Password</label>
+        <br/>
+        <input type="password" placeholder="Password" name="password" id="Password">
+        <br/>
+        <label for="Password">Confirm New Password</label>
+        <br/>
+        <input type="password" placeholder="Password" name="password" id="Password">
+        <br/>
+        <label for="Email">Email Address</label>
+        <br/>
+        <input type="email" placeholder="Email Address" name="email" id="Email">
+        <br/>
+        <button>Send Verification code</button>
+        <br/>
+        <label for="Surname">Surname</label>
+        <br/>
+        <input type="text" placeholder="Surname" name="surname" id="Surname">
+        <br/>
+        <label for="Display">Display</label>
+        <br/>
+        <input type="text" placeholder="Display Name" name="display_name" id="Display">
+        <br/>
+        <button>CREATE</button>	&nbsp;	&nbsp;
+        <button>CANCEL</button>
+    </form>
+    <hr/>
+    <form>
+        <label for="First">
+            First Name
+        </label>
+        <br/>
+        <input type="text" placeholder="First Name" id="First" name="first_name">
+        <br/>
+        <label for="Second">
+            Second Name
+        </label>
+        <br/>
+        <input type="text" placeholder="Second Name" id="Second" name="second_name">
+        <br/>
+        <label for="Date">Date of Birth</label>
+        <br/>
+        <input type="date" id="Date" name="date_of_birth">
+        <br/>
+        <label for="Address">
+            Address
+        </label>
+        <br/>
+        <input type="text" id="Address" name="address" placeholder="Address"/>
+        <br/>
+        <label for="City">City</label>
+        <br/>
+        <input type="text" id="City" name="city" placeholder="City">
+        <br/>
+        <label for="Pincode">
+            Pincode
+        </label>
+        <br/>
+        <input type="number" name="pin" pattern="[0-9]{4}" maxlength="6" id="Pincode" placeholder="City Pin Code">
+        <br/>
+        <label for="State">State</label>
+        <br/>
+
+        <select name="state" id="State">
+            <option value="0">State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh </option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        </select>
+        <br/>
+        <lable for="Language">
+            Language
+        </lable>
+        <br/>
+
+        <input type="checkbox" id="Language" name="lang" value="english">English
+        <br/>
+        <input type="checkbox" id="Language" name="lang" value="hindi">Hindi
+        <br/>
+        <input type="checkbox" id="Language" name="lang" value="french">French
+        <br/>
+        <label for="Photo">Photo</label>
+        <br/>
+        <input type="file" name="photo" id="Photo">
+        <br/>
+        <br/>
+        <input type="radio" id="Declare">
+        <label for="Declare">I hereby declare that the information furnished above is true, complete and correct to the best of my knowledge and belief.</label>
+        <br/>
+        <input type="submit"  value="Submit">
+    </form>   
+</body>
+</html>
