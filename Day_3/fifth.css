@@ -1,0 +1,23 @@
+h1{
+    color: rgb(255,100,0);
+    border: 2px solid yellow;   
+    /* border : width style color */
+}
+
+p{
+    color: rgba(100,255,100,0.6);
+    background-image: url(https://wallpaperaccess.com/full/2516966.jpg);
+    background-repeat: no-repeat; /*so that the background image don't repeat*/
+    background-size: cover; /* so that the image maginifize and cover the whole page  */
+}
+
+h3{
+    color: #FF00FF;
+    border-width: 5px;
+    border-style: dotted dashed solid double;
+    border-color:  #FFFFFF;
+}
+
+body{
+    background-color: #000000;
+}
