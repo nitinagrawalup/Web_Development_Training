@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+p{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#arrange{
+    background-color: #87CEEB;
+    width: 50%;
+    margin: auto;
+}
+div:nth-of-type(2){
+    text-align: center;
+    
+}
+
+div input{
+    border: 2px solid rgb(00,100,255);
+}
+
+div button{
+    background-color: rgb(255,0,0);
+}
+
+
+#first-div{  
+    float:left; 
+    width:30%;
+}
+#second-div{
+    float:right; 
+    width:70%;
+    text-align: left;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
